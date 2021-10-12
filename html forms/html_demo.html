@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+
+        <title>HTML Demo</title>
+    </head>
+    <body>
+        <h1>Заглавие</h1>
+        <h2>Заглавие</h2>
+        <h3>Заглавие</h3>
+        <h4>Заглавие</h4>
+        <h5>Заглавие</h5>
+        <h6>Заглавие</h6>
+
+        <form method="POST" action="http://localhost">
+            <label for="first-name">Име: </label>
+            <input type="text" placeholder="Име" name="first-name" id="first-name"/>
+            <label for="password">Парола: </label>
+            <input type="password" name="password" id="password"/>
+            <label for="email">Имейл: </label>
+            <input type="email" name="email" id="email"/>
+            <label>Пол: </label>
+            <label>Мъж</label>
+            <input type="radio" name="gender" value="M"/>
+            <label>Жена</label>
+            <input type="radio" name="gender" value="F"/>
+            <label>Образование</label>
+            <label>Средно</label>
+            <input type="checkbox" name="education" value="High school"/>
+            <label>Бакалавър</label>
+            <input type="checkbox" name="education" value="Bachelor"/>
+            <label>Магистър</label>
+            <input type="checkbox" name="education" value="Master"/>
+            <textarea placeholder="Въведи текст"></textarea>
+            <label>Град</label>
+            <select name="city">
+                <optgroup label="Град">
+                    <option value="Sofia">София</option>
+                    <option value="Burgas">Бургас</option>
+                    <option value="Varna">Варна</option>
+                    <option value="Plovdiv">Пловдив</option>
+                </optgroup>
+
+                <optgroup label="Държава">
+                    <option value="BG">България</option>
+                    <option value="US">САЩ</option>
+                    <option value="CA">Канада</option>
+                </optgroup>
+            </select>
+            <!-- <button>Изпрати</button> -->
+            <input type="submit" value="Изпрати" />
+        </form>
+    </body>
+</html>
